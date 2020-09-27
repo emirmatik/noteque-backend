@@ -6,7 +6,6 @@ const users = require('./routes/users');
 const login = require('./routes/login');
 const cors = require("cors");
 
-require('dotenv').config();
 app.use(cors())
 app.use(express.json())
 app.use(helmet())
